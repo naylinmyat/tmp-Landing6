@@ -1044,6 +1044,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Hero Body Mobile View start */
     .hero-body{
         flex-direction: column;
+        margin-top: 10%;
     }
     .hero-body-content{
         width: 90%;
@@ -1053,6 +1054,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     }
     .hero-body-content .mobile-view-header{
         display: block;
+        font-size: 2.1rem;
     }
     .hero-body > img{
         width: 90%;
@@ -1073,6 +1075,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Logo Group Mobile View end */
 
     /* About Section Mobile View start */
+    .about-section{
+        padding: 10% 0;
+    }
     .about-content{
         flex-flow: column-reverse;
     }
@@ -1093,6 +1098,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* About Section Mobile View end */
 
     /* Content 1 Mobile View start */
+    .first-content-section{
+        padding: 10% 0 5% 0;
+    }
     .quarter-circle{
         position: absolute;
         top: 43%;
@@ -1109,6 +1117,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     }
     .first-content-section-text-and-button{
         width: 100%;
+        padding-bottom: 4%;
     }
     /* Content 1 Mobile View end */
 
@@ -1117,6 +1126,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
         background: #fcfaffe7;
     }
     .factor{
+        padding: 10% 0;
         flex-direction: column;
     }
     .users,
@@ -1127,11 +1137,17 @@ nav .nav-content-mobile-view .signup-btn:hover{
         margin: 2% 0;
         justify-content: space-around;
     }
+    .users-bulk,
+    .download-bulk,
+    .likes-bulk,
+    .rating-bulk{
+        font-size: 3.3rem;
+    }
     /* Factor Mobile View end */
 
     /* Service Section Mobile View start */
     .service-section{
-        padding: 20% 0;
+        padding: 10% 0;
     }
     .quarter-circle-2{
         width: 25%;
@@ -1157,6 +1173,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Service Section Mobile View end */
 
     /* Content 2 Mobile View start */
+    .second-content-section{
+        padding: 10% 0;
+    }
     .second-content{
         flex-direction: column;
     }
@@ -1171,7 +1190,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
 
     /* Pricing Section Mobile View start */
     .pricing-section{
-        padding: 20% 0;
+        padding: 10% 0;
     }
     .quarter-circle-1{
         width: 25%;
@@ -1188,6 +1207,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Pricing Section Mobile View end */
 
     /* Testimonial Mobile View start */
+    .testimonial{
+        padding: 10% 0 6% 0;
+    }
     .testimonial > img{
         display: none;
     }
@@ -1233,8 +1255,12 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* CTA Mobile View end */
 
     /* Footer Mobile View start */
+    .footer-section{
+        padding: 10% 0 0 0;
+    }
     .footer-content{
         flex-direction: column;
+        padding-bottom: 8%;
     }
     .footer-content .widget-one,
     .footer-content .widget-two,
