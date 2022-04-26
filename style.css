@@ -1119,32 +1119,13 @@ nav .nav-content-mobile-view .signup-btn:hover{
     .factor{
         flex-direction: column;
     }
-    .users{
-        width: 100%;
-        margin: 2% 0;
-    }
-    .download{
-        width: 100%;
-        margin: 2% 0;
-    }
-    .likes{
-        width: 100%;
-        margin: 2% 0;
-    }
+    .users,
+    .download,
+    .likes,
     .rating{
         width: 100%;
         margin: 2% 0;
-    }
-    .users-bulk,
-    .download-bulk,
-    .likes-bulk,
-    .rating-bulk{
-        width: 50%;
-        text-align: center;
-    }
-    .factor .normal-text{
-        margin-left: 0%;
-        text-align: center;
+        justify-content: space-around;
     }
     /* Factor Mobile View end */
 
