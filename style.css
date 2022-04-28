@@ -961,11 +961,11 @@ nav .nav-content-mobile-view .signup-btn:hover{
     }
     nav .nav-content-mobile-view{
         display: flex;
-        top: -101%;
+        right: -101%;
         transition: all 0.8s;
     }
     #check:checked ~ .nav-content-mobile-view{
-        top: 0;
+        right: 0;
         transition: all 0.8s;
     }
     #check:checked ~ .nav-content-mobile-view .logo{
