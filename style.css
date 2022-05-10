@@ -842,8 +842,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
 }
 /* Footer end */
 
-
-@media (min-width: 1300px){
+@media (min-width: 1500px){
     :root{
         font-size: 16px;
     }
@@ -851,7 +850,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     .download-bulk,
     .likes-bulk,
     .rating-bulk{
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .factor .normal-text{
         font-size: 1.2rem;
